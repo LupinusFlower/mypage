@@ -10,10 +10,10 @@
 </head>
 <body>
   <h1> Hi! How are you? </h2>
-  <h2><a href="first.html" class="links">Link</a></h2>
+  <h2><a href="first.html" id="links">Link</a></h2>
   <script>
-    var whatsthelink = document.querySelectorAll(".links");
-    whatsthelink = "Click here to get to other side!";
+    var whatsthelink = document.getElementById("links");
+    whatsthelink.innerHTML = "Here you  should click!";
   </script>
 </body>
 </html>
